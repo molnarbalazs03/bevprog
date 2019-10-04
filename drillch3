@@ -1,0 +1,49 @@
+#include<iostream>
+
+using namespace std;
+int main()
+{
+         string first_name, friend_name, another_friend_name;
+         int age;
+         cout << "Please enter your first name:"<< endl;
+         cin >> first_name;
+         cout << "Hello, " << first_name << endl;
+         cout << "Please enter your friend name that you want to send this letter:"<<endl;
+         cin >> friend_name;
+         cout << "Please enter your friend name that you haven't seen a while:"<<endl;
+         cin >> another_friend_name;
+         char friend_sex = 0;
+         cout << "Please enter an m if the friend is male."<<"Or"<<"Enter an f if the friend is female."<<endl;
+         cin >> friend_sex;
+         cout << "Please enter your friend age."
+         cin >> age;
+         if(age<=0 || age >= 100)
+         {
+         cout<<"You are kidding"<<endl;
+         return 0;
+         }
+         cout << "Dear " << friend_name<<endl<<"  "<<"How are you? I am fine. I miss you."<<endl;
+         cout << "Please send me a feedback if you will have freetime in the future to drink something or do something else to spend some time with each other.I almost forgot to ask you.Have you seen"<<another_friend_name<<"lately?"<<endl;
+         if(friend_sex='m')
+         {
+         cout << "If you see " << another_friend_name<<"please ask him to call me"<< endl;
+         } else
+         {
+         cout << "If you see " << another_friend_name << " please ask her to call me." << endl;
+         }
+         if(age<12)
+         {
+         cout << "Next year you will be "<<age+1<<endl;
+         }
+         else if(age=17)
+         {
+         cout << "Next year you will be able to vote."<<endl;
+         }
+         else if(age>70)
+         {
+         cout << "I hope you are enjoying retirement." << endl;
+         cout << " " << endl;
+         cout << " " << endl;
+         cout <<"Your sincerely, " << first_name<<endl;
+         return 0;
+}
