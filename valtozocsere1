@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int a,b;
+
+  cout<<"Kerem adja meg az a erteket!"<<endl;
+  cin>>a;
+  cout<<"Kerem adja meg a b erteket!"<<endl;
+  cin>>b;
+  a=a*b;
+  b=a/b;
+  a=a/b;
+
+  cout<<"uj a ertek :"<<a<<endl;
+  cout<<"uj b ertek :"<<b<<endl;
+{
