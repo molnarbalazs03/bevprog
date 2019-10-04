@@ -1,0 +1,18 @@
+#include<iostream>
+
+using namespace std;
+int main()
+  {
+  int a,b;
+  cout<<"Adja meg a erteket!"<<endl;
+  cin>>a;
+  cout<<"Adja meg b erteket!"<<endl;
+  cin>>b;
+  a=a+b;
+  b=a-b;
+  a=a-b;
+  cout<<"Az a uj erteke:"<<a<<endl;
+  cout<<"A b uj erteke:"<<b<<endl;
+  
+  return 0;
+  }
